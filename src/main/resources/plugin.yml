@@ -1,0 +1,7 @@
+name: NeltraStack
+version: 0.1-fix
+main: com.neltra.neltrastack.NeltraStack
+api-version: '1.21'
+description: Gop 5 stack item thanh 1 super-stack
+authors: [Neltra]
+folia-supported: true
