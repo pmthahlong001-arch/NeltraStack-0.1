@@ -9,9 +9,6 @@
     <version>0.1-fix</version>
     <packaging>jar</packaging>
 
-    <name>NeltraStack</name>
-    <description>Stack 5 items into 1 super-stack for Folia 1.21.1</description>
-
     <properties>
         <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,10 +22,10 @@
     </repositories>
 
     <dependencies>
-        <!-- Folia API 1.21.1 -->
+        <!-- Paper API 1.21.1 (dùng cho cả Folia) -->
         <dependency>
-            <groupId>dev.folia</groupId>
-            <artifactId>folia-api</artifactId>
+            <groupId>io.papermc.paper</groupId>
+            <artifactId>paper-api</artifactId>
             <version>1.21.1-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
